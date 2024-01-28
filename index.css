@@ -1,199 +1,288 @@
-html{
+html {
     overflow-x: hidden;
     zoom: 100%;
 }
 #navigate {
-  display: flex;
-  z-index: 10;
-  position: absolute;
-  width: 100%;height: 100%;
-  flex-wrap: nowrap;
-  left: 16cm;
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    left: 16cm;
 }
-#navigate a{
-  text-decoration: none;
-  color: white;
+#navigate a {
+    text-decoration: none;
+    color: white;
 }
-#navigate button 
-{
-  color: white;
-  border: 1px;
-  cursor: pointer;
-  background-color: transparent;
-  margin-left: 70px;
-  display:inline;
-  font-size: 3vh;
+#navigate button {
+    color: white;
+    border: 1px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 70px;
+    display: inline;
+    font-size: 3vh;
 }
 
 #image {
-  z-index: 1;
-  position: relative;
-  top: -2cm;
-  width: 105%;height: 95%;
-  left: -25px;
+    z-index: 1;
+    position: relative;
+    top: -2cm;
+    width: 105%;
+    height: 95%;
+    left: -25px;
 }
 .zologo {
-  z-index: 3;
-  /* position: absolute;left: -7.5cm;top: -4cm; */
-  position: relative;
-  width: 105%;
-  height: 100%;
-  top: -16cm;
-  scale: 0.3;
-  left: -0.5cm;
+    z-index: 3;
+    /* position: absolute;left: -7.5cm;top: -4cm; */
+    position: relative;
+    width: 105%;
+    height: 100%;
+    top: -16cm;
+    scale: 0.3;
+    left: -0.5cm;
 }
 
 .zolog {
-  width: 60rem;
-  color: white;
-  margin: auto;
-  text-align: center;
-  font-size: 3.0rem;
-  z-index: 4;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: absolute;top: 350px;left: 225px;
-  line-height: 1.1;
-  font-weight: 350;
+    width: 60rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 3.0rem;
+    z-index: 4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 350px;
+    left: 225px;
+    line-height: 1.1;
+    font-weight: 350;
 }
 
 .IN {
-  scale: 0.3;
-  position: relative;
-  left: 23cm;
-  top: -15.9cm;
+    scale: 0.3;
+    position: relative;
+    left: 23cm;
+    top: -580px;
 }
 
 .Headn {
-  color: black;
-  position: relative;
-  top: -11cm;
-  left: 11cm;
-  font-size: 1.2cm;
+    color: black;
+    position: relative;
+    top: -400px;
+    left: 11cm;
+    font-size: 1.2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.bo {
+    position: relative;
+    top: -17.3cm;
+    color: gray;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1cm;
+}
+
+.foot {
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+    display: inline-flex;
+    block-size: 40px;
+}
+.foot #fi {
+    position: relative;
+    top: -9.9cm;
+    font-size: larger;
+}
+.foot #sec {
+    position: relative;
+    top: -9.9cm;
+    left: 100px;
+    font-size: larger;
+}
+.foot #thi {
+    position: relative;
+    top: -9.9cm;
+    left: 200px;
+    font-size: larger;
+}
+.foot h2 {
+    position: relative;
+    /* top: 9.35cm ; for moz */
+    top: -357px;
+    right: -300px;
+    width: 200px;
+    line-height: 27px;
+}
+.foot #soli {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 130px;
+    top: -290px;
+}
+.foot #soli li {
+    list-style-type: none;
+    columns: 2;
+}
+.foot #apple {
+    position: relative;
+    bottom: 250px;
+    left: -25px;
+}
+.foot #google {
+    position: relative;
+    bottom: 180px;
+    left: -175px;
+}
+.buttons {
+    position: relative;
+    top: -15cm;left: -50px;
+    display: flex;
+    justify-content:flex-start;
+    font-family: Okra,Helvetica, sans-serif;
+    width: 110%;
+    line-height: 100px;
+    flex-wrap: wrap;
+    block-size: 300px;
+}
+.buttons a {
+    text-decoration: none;
+    color: rgb(33, 32, 32);
+    font-weight: 300;
+    font-size: x-large;
+    cursor: pointer;
+}
+.buttons .Agra {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 100px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Ahemdabad {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Ajmer {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Amritsar {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Bengaluru {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Bhopal {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Chennai {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Delhi {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 60px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Gangtok {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+}
+.buttons .Guwahati {
+    box-sizing: border-box;
+    position: relative;
+    left: 2cm;
+    margin: 2cm;
+    box-shadow: rgba(28, 28, 28, 0.08) 0 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 4cm;
+    width: 2cm;
+    padding: 20px 50px 20px 20px;
+    border-radius: 8px;
+}
+
+#footer
+{
+  border-top: 2px solid rgb(204, 203, 203) ;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  color: rgb(114, 114, 114);
+  line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
 }
-.bo
-{
-  position: relative;
-  top: -17.3cm;
-  color: gray;
-  font-size: larger;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;line-height: 1cm;
-}
-
-.foot{
-  position: relative;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: inline-flex;
-}
-.foot #fi{
-position: relative;
-top: -9.9cm;
-font-size: larger;
-}
-.foot #sec
-{
-position: relative;
-top: -9.9cm;left: 100px;
-font-size: larger;
-} 
-.foot #thi{
-position: relative;
-top: -9.9cm;left:200px;
-font-size: larger;
-}
-.foot h2
-{
-  position: absolute;
-  top: -9.35cm;right: -300px;
-}
-.foot #soli
-{
-  columns: 4;column-width: 30px;list-style-type: none;
-  position: relative;left: 340px;top: -290px;
-}
-
-.foot #apple
-{
-  position: relative;
-  bottom: -50px;right: 105px;
-}
-
-.foot #google
-{
-  position: relative;bottom: -100px;right: 150px;
-}
-.buttons{
-  position: relative;top: -15cm;display: flex ;justify-content:left;
-  font-family:Okra, sans-serif;
-  width: 100%;line-height: 100px;
-  flex-wrap:wrap;
-  block-size: 300px;
-}
-.buttons a{
-  text-decoration: none;color: rgb(33, 32, 32);
-  font-weight: 300;font-size: x-large;cursor: pointer;
-}
-.buttons .Agra{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px ;
-  padding-right: 100px;
-  border-radius: 8px;
-}
-.buttons .Ahemdabad{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 40px;  border-radius: 8px;
-}
-.buttons .Ajmer{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Amritsar{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Bengaluru{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm;
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Bhopal{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Chennai{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Delhi{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 60px;  border-radius: 8px;
-}
-.buttons .Gangtok{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 40px;  border-radius: 8px;
-}
-.buttons .Guwahati{
-  box-sizing: border-box;position: relative;;left: 2cm;margin: 2cm;
-  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
-  border: 1px solid rgb(232, 232, 232);height: 4cm;width: 2cm; 
-  padding: 20px 20px;padding-right: 50px;  border-radius: 8px;
-}
-
